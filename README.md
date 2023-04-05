@@ -40,7 +40,7 @@ This course aims to cover several basic concepts for Python 3 including the foll
       - A Character is just one letter or symbol.  Typically confined to ASCII table (256 characters or reserved symbols mapped to unique byte)
       - you can see what the numeric representation of any character is using `ord(c)` 
       - There's different ways to encode a string (ASCII, UTF-8, UTF-16, etc.) each with different numeric representations underlying a specific token
-      - You don't need to worry about this until you do.  E.g. trying to read a stream of bytes that you know represents text, but you choose the wrong encoding and it tries to cram a UTF byte into an ASCII character, but it's not one of the defined 256 ascii characters! you'll get an error
+      - You don't need to worry about this until you do.  E.g. [trying to read a stream of bytes](https://api-sports.io/documentation/baseball/v1#section/Sample-Scripts/Python) that you know represents text, but you choose the wrong encoding and it tries to cram a UTF byte into an ASCII character, but it's not one of the defined 256 ascii characters! you'll get an error
 
 - **Booleans**
   - just `True` or `False` 
